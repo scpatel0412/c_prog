@@ -15,7 +15,7 @@ long int findSubarray(int arr[], int n){
 }
 
 int main(){
-  int a[] = {1,2,3};
+  int a[] = {-1, 2, -2, 5, 7, -3, 1};
   int n = sizeof(a)/sizeof(a[0]);
   printf("size of array = %d \n", n);
   int sum = findSubarray(a, n);
